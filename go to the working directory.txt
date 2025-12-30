@@ -1,0 +1,54 @@
+go to the working directory 
+(with files) 
+
+git init 
+git add . //adds all files in the direc
+git commit -m "a message to explain what this is" 
+
+go to GitHub, make repo with same name(or whatever name i guess) 
+copy ssh key e.g. git@github.com:leet0727/whateverprojectname.git
+
+git branch -M main //makes this the main branch 
+git push -u origin main //pushes files in that directory into the main branch 
+
+git checkout -b experiment1 //Create a new branch (experiment universe) and switch to it
+
+git push --set-upstream origin experiment1 //Publish the branch to GitHub (first time only)
+
+git merge experiment1 //merges experiment1 to main 
+git push
+
+
+git branch -d experiment1 //deletes locally 
+git push origin --delete experiment1 //deletes on GitHub
+
+
+git log --graph --oneline --all //shows all branches 
+
+
+
+to get a repo from GitHub 
+
+get ssh from repo git@github.com:leet0727/somerepo.git
+
+make a directory 
+
+git clone git@github.com:leet0727/somerepo.git
+
+git pull --rebase //to update 
+
+
+Now fork is something better? copying someone elses work essentially 
+
+simply go to GitHub, press fork, get copy ssh key 
+and 
+
+git clone git@github.com:leet0727/micrograd.git //example 
+
+
+
+
+
+
+
+
